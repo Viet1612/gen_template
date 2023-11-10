@@ -1,0 +1,649 @@
+<class 'google.cloud.compute_v1.services.routes.pagers.ListPager'>
+id: 6189661099204437777
+kind: "compute#route"
+name: "default-route-116ed415f6177d6a"
+creation_timestamp: "2023-06-18T21:30:54.658-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.168.0.0/20"
+description: "Default local route to the subnetwork 10.168.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-116ed415f6177d6a"
+
+id: 1065987426878645486
+kind: "compute#route"
+name: "default-route-15a5a31e29b6abc3"
+creation_timestamp: "2023-06-18T21:30:57.250-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.184.0.0/20"
+description: "Default local route to the subnetwork 10.184.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-15a5a31e29b6abc3"
+
+id: 68014718675216148
+kind: "compute#route"
+name: "default-route-1660cdae9610e7e5"
+creation_timestamp: "2023-06-18T21:30:51.621-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.128.0.0/20"
+description: "Default local route to the subnetwork 10.128.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-1660cdae9610e7e5"
+
+id: 519296480178235153
+kind: "compute#route"
+name: "default-route-17e36f579f2a3eb4"
+creation_timestamp: "2023-06-18T21:30:54.264-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.198.0.0/20"
+description: "Default local route to the subnetwork 10.198.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-17e36f579f2a3eb4"
+
+id: 4422670815865235218
+kind: "compute#route"
+name: "default-route-19681683bc3e5058"
+creation_timestamp: "2023-06-18T21:30:53.606-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.156.0.0/20"
+description: "Default local route to the subnetwork 10.156.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-19681683bc3e5058"
+
+id: 3198266405349346737
+kind: "compute#route"
+name: "default-route-1a13ab116d883f04"
+creation_timestamp: "2023-11-02T21:13:18.710-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+dest_range: "10.0.1.0/24"
+description: "Default local route to the subnetwork 10.0.1.0/24."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-1a13ab116d883f04"
+
+id: 1926965865374051809
+kind: "compute#route"
+name: "default-route-1ea749ca18b10ff1"
+creation_timestamp: "2023-10-31T21:24:46.142-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/vpc-tool"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/vpc-tool"
+dest_range: "10.0.1.0/24"
+description: "Default local route to the subnetwork 10.0.1.0/24."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-1ea749ca18b10ff1"
+
+id: 3560275961639980500
+kind: "compute#route"
+name: "default-route-2433e9d4be53fbbb"
+creation_timestamp: "2023-11-02T21:12:43.164-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+next_hop_gateway: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/gateways/default-internet-gateway"
+dest_range: "0.0.0.0/0"
+description: "Default route to the Internet."
+priority: 1000
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-2433e9d4be53fbbb"
+
+id: 5751777913383053075
+kind: "compute#route"
+name: "default-route-25978fcfce38c80f"
+creation_timestamp: "2023-06-18T21:30:52.210-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.132.0.0/20"
+description: "Default local route to the subnetwork 10.132.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-25978fcfce38c80f"
+
+id: 3326326168124286186
+kind: "compute#route"
+name: "default-route-25dabb1f043bab61"
+creation_timestamp: "2023-06-18T21:31:01.874-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.160.0.0/20"
+description: "Default local route to the subnetwork 10.160.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-25dabb1f043bab61"
+
+id: 2186954636796257518
+kind: "compute#route"
+name: "default-route-25f6f5d49a9d227d"
+creation_timestamp: "2023-06-18T21:30:57.604-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.148.0.0/20"
+description: "Default local route to the subnetwork 10.148.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-25f6f5d49a9d227d"
+
+id: 3808341354094638991
+kind: "compute#route"
+name: "default-route-2c70af243306bb4c"
+creation_timestamp: "2023-06-19T00:53:04.638-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.196.0.0/20"
+description: "Default local route to the subnetwork 10.196.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-2c70af243306bb4c"
+
+id: 6447121599503164652
+kind: "compute#route"
+name: "default-route-3334eb7a4b53bca3"
+creation_timestamp: "2023-06-18T21:30:59.366-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.194.0.0/20"
+description: "Default local route to the subnetwork 10.194.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-3334eb7a4b53bca3"
+
+id: 4642238129700695557
+kind: "compute#route"
+name: "default-route-341eab22f6ff6239"
+creation_timestamp: "2023-10-25T01:25:14.332-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.1.0.0/22"
+description: "Default local route to the subnetwork 10.1.0.0/22."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-341eab22f6ff6239"
+
+id: 3111250921953322769
+kind: "compute#route"
+name: "default-route-3e8b9efac2c34d5e"
+creation_timestamp: "2023-06-18T21:30:54.349-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.210.0.0/20"
+description: "Default local route to the subnetwork 10.210.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-3e8b9efac2c34d5e"
+
+id: 8652730388539664148
+kind: "compute#route"
+name: "default-route-3f29101a3cf891c4"
+creation_timestamp: "2023-06-18T21:30:51.803-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.150.0.0/20"
+description: "Default local route to the subnetwork 10.150.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-3f29101a3cf891c4"
+
+id: 5111747414556043026
+kind: "compute#route"
+name: "default-route-464b3c44b5d8d433"
+creation_timestamp: "2023-06-18T21:30:53.767-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.200.0.0/20"
+description: "Default local route to the subnetwork 10.200.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-464b3c44b5d8d433"
+
+id: 2211865464322251954
+kind: "compute#route"
+name: "default-route-625d8184a0e1670f"
+creation_timestamp: "2023-11-08T20:38:54.006-08:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+dest_range: "2600:1900:4030:2762::/64"
+description: "Default local ipv6 route to the subnetwork 2600:1900:4030:2762::/64."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-625d8184a0e1670f"
+
+id: 1924037217339205397
+kind: "compute#route"
+name: "default-route-666601d591eefd14"
+creation_timestamp: "2023-06-18T21:30:50.772-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.142.0.0/20"
+description: "Default local route to the subnetwork 10.142.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-666601d591eefd14"
+
+id: 1445533107005581072
+kind: "compute#route"
+name: "default-route-67343b85f7a1fc4e"
+creation_timestamp: "2023-06-18T21:30:55.689-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.158.0.0/20"
+description: "Default local route to the subnetwork 10.158.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-67343b85f7a1fc4e"
+
+id: 8949136058868707500
+kind: "compute#route"
+name: "default-route-68335185eb61a230"
+creation_timestamp: "2023-10-18T00:50:27.555-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.218.0.0/20"
+description: "Default local route to the subnetwork 10.218.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-68335185eb61a230"
+
+id: 7864516362585138411
+kind: "compute#route"
+name: "default-route-6c149c8cde0e14ce"
+creation_timestamp: "2023-06-18T21:31:00.875-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.192.0.0/20"
+description: "Default local route to the subnetwork 10.192.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-6c149c8cde0e14ce"
+
+id: 8646176977144891672
+kind: "compute#route"
+name: "default-route-70a4b4236acf5267"
+creation_timestamp: "2023-11-08T22:11:03.364-08:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+dest_range: "10.0.10.0/24"
+description: "Default local route to the subnetwork 10.0.10.0/24."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-70a4b4236acf5267"
+
+id: 4567287750610544404
+kind: "compute#route"
+name: "default-route-794c0e767ad71879"
+creation_timestamp: "2023-06-18T21:30:51.602-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.202.0.0/20"
+description: "Default local route to the subnetwork 10.202.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-794c0e767ad71879"
+
+id: 6305844731974936337
+kind: "compute#route"
+name: "default-route-7b21d2720cd66173"
+creation_timestamp: "2023-06-18T21:30:55.019-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.174.0.0/20"
+description: "Default local route to the subnetwork 10.174.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-7b21d2720cd66173"
+
+id: 7936355050729923822
+kind: "compute#route"
+name: "default-route-7fc29ac639ad8490"
+creation_timestamp: "2023-06-18T21:30:57.448-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.152.0.0/20"
+description: "Default local route to the subnetwork 10.152.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-7fc29ac639ad8490"
+
+id: 8463573560603075820
+kind: "compute#route"
+name: "default-route-831a3524e7ea2ed0"
+creation_timestamp: "2023-06-18T21:30:59.743-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.190.0.0/20"
+description: "Default local route to the subnetwork 10.190.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-831a3524e7ea2ed0"
+
+id: 5367129992497096475
+kind: "compute#route"
+name: "default-route-8741dc157671f71c"
+creation_timestamp: "2023-06-18T21:30:44.927-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_gateway: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/gateways/default-internet-gateway"
+dest_range: "0.0.0.0/0"
+description: "Default route to the Internet."
+priority: 1000
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-8741dc157671f71c"
+
+id: 8593235530922187964
+kind: "compute#route"
+name: "default-route-8921e2efbff637ea"
+creation_timestamp: "2023-11-08T20:38:43.526-08:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+next_hop_gateway: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/gateways/default-internet-gateway"
+dest_range: "::/0"
+description: "IPv6 default route to the Internet"
+priority: 1000
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-8921e2efbff637ea"
+
+id: 3896090920384358161
+kind: "compute#route"
+name: "default-route-8b651574d8ec9f6e"
+creation_timestamp: "2023-06-18T21:30:54.718-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.146.0.0/20"
+description: "Default local route to the subnetwork 10.146.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-8b651574d8ec9f6e"
+
+id: 7121560515887525375
+kind: "compute#route"
+name: "default-route-8b965e2b257ba16d"
+creation_timestamp: "2023-10-31T21:24:48.322-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/vpc-tool"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/vpc-tool"
+dest_range: "10.0.2.0/24"
+description: "Default local route to the subnetwork 10.0.2.0/24."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-8b965e2b257ba16d"
+
+id: 2868297266402322194
+kind: "compute#route"
+name: "default-route-909aa4cdf016d6ca"
+creation_timestamp: "2023-06-18T21:30:53.541-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.204.0.0/20"
+description: "Default local route to the subnetwork 10.204.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-909aa4cdf016d6ca"
+
+id: 3601940326952101648
+kind: "compute#route"
+name: "default-route-9201cd9b512c9336"
+creation_timestamp: "2023-06-18T21:30:55.112-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.170.0.0/20"
+description: "Default local route to the subnetwork 10.170.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-9201cd9b512c9336"
+
+id: 3933874864378767122
+kind: "compute#route"
+name: "default-route-943321aaba1fb81a"
+creation_timestamp: "2023-06-18T21:30:53.989-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.172.0.0/20"
+description: "Default local route to the subnetwork 10.172.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-943321aaba1fb81a"
+
+id: 6578811923933962848
+kind: "compute#route"
+name: "default-route-97961137a439f99a"
+creation_timestamp: "2023-06-29T08:00:31.766-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.214.0.0/20"
+description: "Default local route to the subnetwork 10.214.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-97961137a439f99a"
+
+id: 4104289481532794641
+kind: "compute#route"
+name: "default-route-9a7ef4bd19fbe949"
+creation_timestamp: "2023-06-18T21:30:54.368-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.182.0.0/20"
+description: "Default local route to the subnetwork 10.182.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-9a7ef4bd19fbe949"
+
+id: 8758605142022055696
+kind: "compute#route"
+name: "default-route-a2e38a66e1bc5d4e"
+creation_timestamp: "2023-06-18T21:30:55.417-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.166.0.0/20"
+description: "Default local route to the subnetwork 10.166.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-a2e38a66e1bc5d4e"
+
+id: 1398749222251160815
+kind: "compute#route"
+name: "default-route-a34b22c6b483e8f1"
+creation_timestamp: "2023-06-18T21:30:56.194-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.208.0.0/20"
+description: "Default local route to the subnetwork 10.208.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-a34b22c6b483e8f1"
+
+id: 7291522542272102442
+kind: "compute#route"
+name: "default-route-a3e527f5cf892c1f"
+creation_timestamp: "2023-11-08T22:40:05.195-08:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+dest_range: "fd20:934:39d6:c000:0:0:0:0/64"
+description: "Default local ipv6 route to the subnetwork fd20:934:39d6:c000:0:0:0:0/64."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-a3e527f5cf892c1f"
+
+id: 3517939597095102227
+kind: "compute#route"
+name: "default-route-af3dd471976cf65a"
+creation_timestamp: "2023-06-18T21:30:52.499-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.188.0.0/20"
+description: "Default local route to the subnetwork 10.188.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-af3dd471976cf65a"
+
+id: 7528479534390338799
+kind: "compute#route"
+name: "default-route-b8be8b018e8dd857"
+creation_timestamp: "2023-06-18T21:30:56.379-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.140.0.0/20"
+description: "Default local route to the subnetwork 10.140.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-b8be8b018e8dd857"
+
+id: 4944562793197233936
+kind: "compute#route"
+name: "default-route-bb1f0201d83e8719"
+creation_timestamp: "2023-06-18T21:30:55.060-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.178.0.0/20"
+description: "Default local route to the subnetwork 10.178.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-bb1f0201d83e8719"
+
+id: 7698239194801530643
+kind: "compute#route"
+name: "default-route-cd36e1348a43c768"
+creation_timestamp: "2023-06-18T21:30:52.578-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.180.0.0/20"
+description: "Default local route to the subnetwork 10.180.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-cd36e1348a43c768"
+
+id: 7392927793843169042
+kind: "compute#route"
+name: "default-route-dc8c1f3b72dcd5a0"
+creation_timestamp: "2023-06-18T21:30:53.165-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.186.0.0/20"
+description: "Default local route to the subnetwork 10.186.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-dc8c1f3b72dcd5a0"
+
+id: 7303235463519823634
+kind: "compute#route"
+name: "default-route-df3123ce59247305"
+creation_timestamp: "2023-06-18T21:30:53.380-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.138.0.0/20"
+description: "Default local route to the subnetwork 10.138.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-df3123ce59247305"
+
+id: 7427592857141274386
+kind: "compute#route"
+name: "default-route-e2b24636239a86ff"
+creation_timestamp: "2023-06-18T21:30:53.988-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.164.0.0/20"
+description: "Default local route to the subnetwork 10.164.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-e2b24636239a86ff"
+
+id: 2987804731413522194
+kind: "compute#route"
+name: "default-route-ecbdd1e613dca210"
+creation_timestamp: "2023-06-18T21:30:53.123-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.154.0.0/20"
+description: "Default local route to the subnetwork 10.154.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-ecbdd1e613dca210"
+
+id: 4255068405887520143
+kind: "compute#route"
+name: "default-route-edd2d875f00a51d8"
+creation_timestamp: "2023-11-02T21:13:20.037-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/ipv6"
+dest_range: "10.0.2.0/24"
+description: "Default local route to the subnetwork 10.0.2.0/24."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-edd2d875f00a51d8"
+
+id: 6495525137929759796
+kind: "compute#route"
+name: "default-route-efb2c6f83a3c1634"
+creation_timestamp: "2023-10-31T21:23:55.049-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/vpc-tool"
+next_hop_gateway: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/gateways/default-internet-gateway"
+dest_range: "0.0.0.0/0"
+description: "Default route to the Internet."
+priority: 1000
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-efb2c6f83a3c1634"
+
+id: 784531545592588050
+kind: "compute#route"
+name: "default-route-f028e867fcc91c4f"
+creation_timestamp: "2023-06-18T21:30:53.371-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.162.0.0/20"
+description: "Default local route to the subnetwork 10.162.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-f028e867fcc91c4f"
+
+id: 7481401972657121044
+kind: "compute#route"
+name: "default-route-f1147dbdf7c785d6"
+creation_timestamp: "2023-06-18T21:30:51.921-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.206.0.0/20"
+description: "Default local route to the subnetwork 10.206.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-f1147dbdf7c785d6"
+
+id: 1187552627927627004
+kind: "compute#route"
+name: "default-route-f342ca499a9b1175"
+creation_timestamp: "2023-09-30T13:50:27.071-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.216.0.0/20"
+description: "Default local route to the subnetwork 10.216.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-f342ca499a9b1175"
+
+id: 6323761308309284078
+kind: "compute#route"
+name: "default-route-fd1a4e896e74ebff"
+creation_timestamp: "2023-06-18T21:30:57.635-07:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.212.0.0/20"
+description: "Default local route to the subnetwork 10.212.0.0/20."
+priority: 0
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/default-route-fd1a4e896e74ebff"
+
+id: 3637032215539377186
+kind: "compute#route"
+name: "ipv6"
+creation_timestamp: "2023-11-09T23:25:01.143-08:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_gateway: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/gateways/default-internet-gateway"
+dest_range: "2001:db8:abcd:1234:c000::/66"
+description: ""
+priority: 1000
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/ipv6"
+
+id: 8129943009339907879
+kind: "compute#route"
+name: "next-ip"
+creation_timestamp: "2023-11-09T19:21:44.500-08:00"
+next_hop_ip: "10.190.0.0"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.0.1.4"
+description: ""
+priority: 1000
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/next-ip"
+warnings {
+  code: "NEXT_HOP_ADDRESS_NOT_ASSIGNED"
+  data {
+    key: "ip_address"
+    value: "10.190.0.0"
+  }
+  data {
+    key: "route_network"
+    value: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+  }
+  message: "Next hop ip address \'10.190.0.0\' is not assigned to the primary IP address of any instance on \'https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default\'.  Please ensure that the address is assigned to the primary IP address of an instance on the route\'s network."
+}
+
+id: 6334686025807305818
+kind: "compute#route"
+name: "rou-ig"
+creation_timestamp: "2023-11-09T19:25:41.328-08:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+next_hop_gateway: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/gateways/default-internet-gateway"
+dest_range: "10.0.1.0/24"
+description: ""
+priority: 1000
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/rou-ig"
+
+id: 562143503449071156
+kind: "compute#route"
+name: "route-test"
+tags: "testtag"
+creation_timestamp: "2023-11-09T19:17:47.617-08:00"
+network: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/networks/default"
+dest_range: "10.0.1.0/24"
+next_hop_instance: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/zones/us-east1-b/instances/tf-instance-thu2"
+description: ""
+priority: 1000
+self_link: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/global/routes/route-test"
+warnings {
+  code: "NEXT_HOP_INSTANCE_NOT_FOUND"
+  data {
+    key: "instance"
+    value: "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/zones/us-east1-b/instances/tf-instance-thu2"
+  }
+  message: "Next hop instance \'https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/zones/us-east1-b/instances/tf-instance-thu2\' does not exist."
+}
+
