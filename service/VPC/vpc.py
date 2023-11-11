@@ -18,7 +18,11 @@ project_id = DataConfig['project_id']
 gcp_key = DataConfig['GCPKEY']
 
 
+
 service_account_file = os.path.join(commom_path, gcp_key)
+
+credential_path = service_account_file
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 # Authenticate with your service account key
 credentials = service_account.Credentials.from_service_account_file(
     service_account_file, scopes=[
