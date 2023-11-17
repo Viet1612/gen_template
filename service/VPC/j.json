@@ -1,0 +1,112 @@
+{
+    "kind": string,
+    "id": string,
+    "items": [
+        {
+            "kind": string,
+            "id": string,
+            "creationTimestamp": string,
+            "name": string,
+            "description": string,
+            "rules": [
+                {
+                    "kind": string,
+                    "ruleName": string,
+                    "description": string,
+                    "priority": integer,
+                    "match": {
+                        "srcIpRanges": [
+                string
+                        ],
+                        "destIpRanges": [
+                string
+                        ],
+                        "layer4Configs": [
+                            {
+                                "ipProtocol": string,
+                                "ports": [
+                    string
+                                ]
+                            }
+                        ],
+                        "srcSecureTags": [
+                            {
+                                "name": string,
+                                "state": enum
+                            }
+                        ],
+                        "destAddressGroups": [
+                string
+                        ],
+                        "srcAddressGroups": [
+                string
+                        ],
+                        "srcFqdns": [
+                string
+                        ],
+                        "destFqdns": [
+                string
+                        ],
+                        "srcRegionCodes": [
+                string
+                        ],
+                        "destRegionCodes": [
+                string
+                        ],
+                        "destThreatIntelligences": [
+                string
+                        ],
+                        "srcThreatIntelligences": [
+                string
+                        ]
+                    },
+                    "action": string,
+                    "direction": enum,
+                    "targetResources": [
+              string
+                    ],
+                    "enableLogging": boolean,
+                    "ruleTupleCount": integer,
+                    "targetServiceAccounts": [
+              string
+                    ],
+                    "targetSecureTags": [
+                        {
+                            "name": string,
+                            "state": enum
+                        }
+                    ],
+                    "disabled": boolean
+                }
+            ],
+            "fingerprint": string,
+            "selfLink": string,
+            "selfLinkWithId": string,
+            "associations": [
+                {
+                    "name": string,
+                    "attachmentTarget": string,
+                    "firewallPolicyId": string,
+                    "shortName": string,
+                    "displayName": string
+                }
+            ],
+            "ruleTupleCount": integer,
+            "shortName": string,
+            "displayName": string,
+            "parent": string,
+            "region": string
+        }
+    ],
+    "nextPageToken": string,
+    "warning": {
+        "code": enum,
+        "message": string,
+        "data": [
+            {
+                "key": string,
+                "value": string
+            }
+        ]
+    }
+}

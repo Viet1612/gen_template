@@ -3,5 +3,6 @@
   "GCPKEY": "gcpkey.json",
   "FileInputTemplate": "Template_TKCT__VPC_Network.xlsx",
   "FileOutputTemplate": "TKCT__VPC_Network.xlsx",
-  "WorkSheet": "DEV"
+  "WorkSheet": "DEV",
+  "WorkSheet_Firewall_Policy": "Rule in Firewall policies"
 }

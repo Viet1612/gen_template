@@ -1,41 +1,38 @@
 from google.cloud import compute_v1
+from google.cloud import vpcaccess_v1
+from google.cloud import  resourcemanager
+from google.cloud import location
 
 def list_all_subnets(project_id):
-    client = compute_v1.SubnetworksClient()
-    subnets = client.aggregated_list(project=project_id)
-    # print(len(subnets))
-    # print(subnets.get('items', {}).items())
-    i = 0
-    for subnet in subnets:
-        print((subnet[1].subnetworks[0].name))
-        # print(len(subnet))
-        i = i + 1
-        print(i)
-
-def sample_list(project_id):
+    compute_client = compute_v1.NetworkFirewallPoliciesClient()
+    firewalls_policy = compute_client.list(project=project_id)
+    print(firewalls_policy)
+        
+def sample_get(project_id):
     # Create a client
-    client = compute_v1.RoutesClient()
-    route = client.get(project=project_id, route="default-route-efb2c6f83a3c1634")
-    print(route)
-
+    client = vpcaccess_v1.VpcAccessServiceClient()
+    
+    parent = f'projects/{project_id}'
+    request = vpcaccess_v1.ListConnectorsRequest(
+        parent=parent,
+    )
+    
     # Initialize request argument(s)
-    # request = compute_v1.ListRoutesRequest(
-    #     project=project_id,
-    # )
+    locations = client.list_locations(request=request)
+    print(locations)
+    # Make the request
+    # page_result = client.list_connectors(request=request)
 
-    # # Make the request
-    # page_result = client.list(request=request)
-    # print(type(page_result))
     # # Handle the response
     # for response in page_result:
-    #     # route_attributes = dir(response)
-    #     # print(route_attributes)
-    #     # break
     #     print(response)
+   
         
 if __name__ == "__main__":
     project_id = "mhrt-dev3-389609"
-    sample_list(project_id)
+    list_all_subnets(project_id)
+    # sample_aggregated_list(project_id)
+
     # a=""
     # if a:
     #     print("aaaaa")
@@ -51,12 +48,12 @@ if __name__ == "__main__":
     # dictionary = {item[0]: item[1:] for item in list_of_lists}
 
     # # print(dictionary)
-    # url = "https://www.googleapis.com/compute/v1/projects/mhrt-dev3-389609/zones/us-east1-b/instances/tf-instance-thu2"
+    # url = "tf-instance-thu2"
+    
+    # # # Tách chuỗi bằng dấu '/'
+    # # url_parts = url.split('/')
 
-    # # Tách chuỗi bằng dấu '/'
-    # url_parts = url.split('/')
-
-    # # Lấy tên máy ảo và khu vực
-    # machine_name = url_parts[-1]
-    # zone = url_parts[-3]
-    # print(f"{url.split('/')[-1]} (Zone {url.split('/')[-3]})")
+    # # # Lấy tên máy ảo và khu vực
+    # # machine_name = url_parts[-1]
+    # # zone = url_parts[-3]
+    # print(((url).split('/'))[-1])
